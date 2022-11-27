@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Alta1</title>
+<!--Creamos el tag con la funcion meta-->
+<meta name="GENERATOR" content="Quanta Plus">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-
+8859-1">
+</head>
+<!--creamos el body del documento html-->
+<body>
+<!--ponemos el heading autores-->
+<h2>Autores</h2>
+<center>
+<!--relacionamos el documento html con el documento php mediante el metodo POST-->
+<FORM action='alta2.php' method='POST'>
+<!--incializamos la tabla-->
+<TABLE border=0>
+<!--añadimos una fila a la tabla para guardar la variable nombre-->
+<TR>
+<TD>Nombre</TD>
+<TD><INPUT type='text' name='nombre' size='30'
+maxlength='30'></TD>
+</TR>
+<!--añadimos una fila a la tabla para guardar la variable apellidos-->
+<TR>
+<TD>Apellidos</TD>
+<TD><INPUT type='text' name='apellidos' size='30' maxlength='30'></TD>
+</TR>
+<!--añadimos una fila a la tabla para guardar la variable nacionalidad-->
+<TR>
+<TD>Nacionalidad</TD>
+<TD><INPUT type='text' name='nacionalidad' size='20' maxlength='20'></TD>
+</TR>
+</table>
+<!--añadimos una variable de tipo submit (boton)-->
+<INPUT type='submit' value='Aceptar'>
+</FORM>
+</center>
+</body>
+</html>
